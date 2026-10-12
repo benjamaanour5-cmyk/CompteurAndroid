@@ -14,7 +14,9 @@
         android:text="@string/titre_compteur"
         android:textSize="28sp"
         android:textStyle="bold"
+        android:textColor="#FF1100"
         android:layout_marginBottom="30dp"/>
+
 
     <TextView
         android:id="@+id/textViewCompteur"
@@ -23,6 +25,7 @@
         android:text="@string/valeur_initiale"
         android:textSize="64sp"
         android:textStyle="bold"
+        android:textColor="#2196F3"
         android:layout_marginBottom="30dp"/>
 
     <LinearLayout
@@ -35,13 +38,15 @@
             android:id="@+id/buttonDecrementer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bouton_decrementer"/>
+            android:text="@string/bouton_decrementer"
+            android:backgroundTint="#2196F3"/>
 
         <Button
             android:id="@+id/buttonIncrementer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bouton_incrementer"/>
+            android:text="@string/bouton_incrementer"
+            android:backgroundTint="#2196F3"/>
 
     </LinearLayout>
 
@@ -50,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bouton_reinitialiser"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF9800"/>
 
 </LinearLayout>
